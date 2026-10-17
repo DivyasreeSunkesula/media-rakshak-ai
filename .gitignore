@@ -1,0 +1,29 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+credentials/
+storage/*.tmp
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Local incident data and uploaded evidence
+storage/cases.json
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Secrets and local configuration
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/

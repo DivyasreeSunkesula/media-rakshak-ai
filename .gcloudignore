@@ -1,0 +1,14 @@
+.gcloudignore
+.gcloud/
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+*.zip
+storage/cases.json
+storage/uploads/
